@@ -1,3 +1,1 @@
-# omnigrass.github.io
-
-harpreet.me
+<harpreet.me>
