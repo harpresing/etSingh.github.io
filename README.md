@@ -1,1 +1,1 @@
-<harpreet.me>
+http://harpreet.me
