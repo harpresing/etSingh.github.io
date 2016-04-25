@@ -102,4 +102,4 @@ print sorted(ans)
 
 {% endhighlight %}
 
-So today we learnt about some of the functional programming aspects of python which makes it so powerful. This was my first blog post and I hope you enjoyed it. See you soon! {{ page.url }}
+So today we learnt about some of the functional programming aspects of python which makes it so powerful. This was my first blog post and I hope you enjoyed it. See you soon! 
