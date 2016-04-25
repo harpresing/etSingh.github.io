@@ -3,6 +3,7 @@ layout: default
 title: Blog
 permalink: /blog/
 ---
+ {% include _scripts/analytics.html %}
 <div>
 
 <h1 class="page-heading">Posts</h1>

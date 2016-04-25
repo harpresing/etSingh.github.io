@@ -75,7 +75,7 @@ Sample Output:
 ```
 Lets get started! We have three lambda functions that check the validity of the username, website Name and the extension. We also have to make sure that there is a username, '@' isnt being used twice, the address contains '.' etc.
 
-{% highlight python %}
+{% highlight python linenos %}
 import re
 def validate(email):
     valid_username = lambda a: re.match("^[A-Za-z0-9_-]*$", a) and len(a) != 0
