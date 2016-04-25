@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Python Functional Programming"
+comments: true
 date:   2016-04-25 18:05:18 +0100
 ---
 
@@ -101,4 +102,4 @@ print sorted(ans)
 
 {% endhighlight %}
 
-So today we learnt about some of the functional programming aspects of python which makes it so powerful. This was my first blog post and I hope you enjoyed it. See you soon!
+So today we learnt about some of the functional programming aspects of python which makes it so powerful. This was my first blog post and I hope you enjoyed it. See you soon! {{ page.url }}
