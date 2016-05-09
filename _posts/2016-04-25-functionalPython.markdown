@@ -64,10 +64,12 @@ The Output is the list of email addresses which are valid in lexographic order. 
 </ul>
 
 Sample Input:<br>
-```3``` <br>
-```lara@wells.com```<br>
-```brian-23@yahoooo.com```<br>
-```declan@gmaill.com```<br>
+{% highlight plain %}
+3  
+lara@wells.com  
+brian-23@yahoooo.com  
+declan@gmaill.com
+{% endhighlight %}
 
 Sample Output:
 
