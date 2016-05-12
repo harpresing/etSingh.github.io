@@ -2,7 +2,7 @@
 layout: post
 title:  "OpenDayLight Beryllium Installation"
 comments: true
-date:   2016-05-10 18:05:18 +0100
+date:   2016-05-11 16:05:18 +0100
 ---
 
 OpenDayLight is an SDN controller that is funded by the Linux foundation and is feature rich, making it a popular choice for a SDN controller. This tutorial will walk you through installation of OpenDayLight Beryllium Controller on an Ubuntu VM with mininet installed on it. Instructions on setting up the Mininet VM can be found [here](http://www.brianlinkletter.com/set-up-mininet/). I would recommend installing a graphical desktop like LXDE once you have set up the VM. 
