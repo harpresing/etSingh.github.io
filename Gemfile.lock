@@ -37,6 +37,3 @@ DEPENDENCIES
   jekyll
   jekyll-sitemap
   rb-inotify (~> 0.9.7)
-
-BUNDLED WITH
-   1.12.3
