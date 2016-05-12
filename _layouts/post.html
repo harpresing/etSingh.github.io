@@ -13,8 +13,9 @@ layout: default
       {% endcapture %}
 
       {% if words contains "-" %}
-        Less than 1 minute
+        Reading Time: Less than 1 minute
       {% else %}
+        Reading Time:
         {{ words | plus: 250 | divided_by: 180 | append: " minutes" }}
       {% endif %}
     </p>
