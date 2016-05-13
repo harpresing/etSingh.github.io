@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "OpenDayLight Beryllium Installation"
+description: OpenDayLight is an SDN controller that is funded by the Linux foundation and is feature rich, making it a popular choice for a SDN controller
 comments: true
 date:   2016-05-11 16:05:18 +0100
 ---
@@ -43,3 +44,4 @@ opendaylight-user@root>feature:list --installed
 {% endhighlight %}
 
 That's it! you have ODL set up now.
+

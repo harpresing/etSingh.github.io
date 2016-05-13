@@ -17,5 +17,7 @@ github_username:  omnigrass
 
 # Build settings
 markdown: kramdown
+sass:
+  style: compressed
 gems:
   - jekyll-sitemap

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Python Functional Programming"
+description: I will walk you through the Map, Lambda and Filter functions in Python. The map() function applies a function to all the elements of a list. It takes two parameters, the function that is to be applied to the list and the list itself.
 comments: true
 date:   2016-04-25 18:05:18 +0100
 ---

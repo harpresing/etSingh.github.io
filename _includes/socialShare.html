@@ -1,58 +1,9 @@
-<!--<style type="text/css">
-ul.sharingButtons{
-  list-style: none;
-  padding: 0;
-}
+<a class="social-link facebook" href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" id="fb-share" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook-square"></i></a>
+		
+<a class="social-link twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}
+&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" id="tweet" rel="nofollow" target="_blank" title="Tweet this Page"><i class="fa fa-twitter"></i></a>
+		
+<a class="social-link linkedin" href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}&title={{ page.title }}&summary={{ page.description}}&source={{ site.url }}" id="linkedin" rel="nofollow" target="_blank" title="Share on LinkedIn"><i class="fa fa-linkedin"></i></a>
+		
+<a class="social-link email" href="mailto:?subject={{ page.title }}&body=Hi,I found this link here {{ site.url }}{{ page.url }}" id="email-share" title="Email to a Friend"><i class="fa fa-envelope"></i> </a>
 
-ul.sharingButtons li{
-  display: inline;
-}
-</style>
-<ul class="sharingButtons">
-  <li>
-  <a href="mailto:?subject=&body=:%20https%3A%2F%2Fharpreet.me%2F" target="_blank" title="Email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;"><i class="fa fa-envelope-square fa-2x"></i></a>
-  </li>
-  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fharpreet.me%2F&t=" target="_blank" title="Share on Facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fharpreet.me%2F&text=:%20https%3A%2F%2Fharpreet.me%2F&via=_etSingh" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20' + encodeURIComponent(document.URL)); return false;"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fharpreet.me%2F&title=&summary=&source=https%3A%2F%2Fharpreet.me%2F" target="_blank" title="Share on LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><i class="fa fa-linkedin-square fa-2x"></i></a>
-  </li>
-</ul>-->
-
-<style type="text/css">
-	a.social-link {
-	display:inline;
-	background-color: #aaa;
-	color:#fff !important;
-	text-decoration:none;
-	padding:6px 12px;
-	margin: 0;
-	-webkit-transition: background 0.1s linear;
-	-moz-transition: background 0.1s linear;
-	-ms-transition: background 0.1s linear;
-	-o-transition: background 0.1s linear;
-	transition: background 0.1s linear;
-}
-a:hover.facebook {
-	background-color:#4a66b7;
-}
-a:hover.twitter {
-	background-color:#00acee;
-}
-a:hover.linkedin {
-	background-color:#1b86bc;
-}
-a:hover.gplus {
-	background-color:#dd4b38;
-}
-a:hover.email {
-	background-color:#ff9600;
-}
-</style>
-
-<a class="social-link facebook" href="" id="fb-share" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i> Share</a>
-		<a class="social-link twitter" href="" id="tweet" rel="nofollow" target="_blank" title="Tweet this Page"><i class="fa fa-twitter"></i> Tweet</a>
-		<a class="social-link linkedin" href="" id="linkedin" rel="nofollow" target="_blank" title="Share on LinkedIn"><i class="fa fa-linkedin"></i> LinkedIn</a>
-		<a class="social-link gplus" href="" id="gplus-share" title="Plus 1 on Google+"><i class="fa fa-google-plus"></i></a>
-		<a class="social-link email" href="" id="email-share" title="Email to a Friend"><i class="fa fa-envelope"></i></a>
-
-		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
