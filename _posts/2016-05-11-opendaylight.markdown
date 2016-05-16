@@ -11,15 +11,19 @@ OpenDayLight is an SDN controller that is funded by the Linux foundation and is 
 ### Environment Dependencies for ODL
 + A Java 7- or Java 8-compliant JDK
 {% highlight plain %}
-$ sudo apt-get install openjdk-7-jdk
+mininet@mininet-vm:~$ sudo apt-get install openjdk-7-jdk
 {% endhighlight %}
 + Maven 3.1.1 or later for building projects
 {% highlight plain %}
-$ sudo apt-get install maven
+mininet@mininet-vm:~$ sudo apt-get install maven
 {% endhighlight %}
 + Install git if you don't have it
 {% highlight plain %}
-$ sudo apt-get install git-core
+mininet@mininet-vm:~$ sudo apt-get install git-core
+{% endhighlight %}
++ Add JAVA_HOME to your bash profile or zsh profile by issuing the command 
+{% highlight plain%}
+mininet@mininet-vm:~$ echo "export JAVA_HOME=/usr/lib/jvm/default-java" > ~/.bashrc
 {% endhighlight %}
 
 ### Install OpenDayLight
@@ -31,7 +35,8 @@ $ unzip ~/Downloads/distribution-Beryllium-SR1.zip -d ~/Your-Destination-Path
 cd into the unzipped folder and run
 {% highlight plain%}
 $ ./bin/karaf
-{% endhighlight %} You have successfully installed opnedaylight if you get the prompt `opendaylight-user@root>`
+{% endhighlight %} 
+You have successfully installed opnedaylight if you get the prompt `opendaylight-user@root>`
 
 Next, we have to install features for the OpenDayLight controller. A full set of feature list is available at [here](https://www.opendaylight.org/opendaylight-features-list). Install essential features by issuing the command-
 {% highlight plain %}
@@ -43,5 +48,31 @@ To see list of installed features, run
 opendaylight-user@root>feature:list --installed
 {% endhighlight %}
 
-That's it! you have ODL set up now.
+That's it! you have ODL set up! 
 
+### Run an SDN Network using Mininet and OpenDayLight
+
+The final step is to test weather OpenDayLight is functioning correctly. By default, if you are using the mininet vm the OpenDayLight Controller is running on IP address `192.168.56.101` and port `6633` respectively. 
+
+On a new terminal, start a mininet topology, specifying the remote controller's IP address and port by issuing the command: 
+
+{% highlight plain %}
+mininet@mininet-vm:~$ sudo mn --topo linear,3 --mac --controller=remote,ip=192.168.56.101,port=6633 --switch ovs,protocols=OpenFlow13
+{% endhighlight %}
+
+Test weather the connectivity is working by issuing the command on the mininet prompt:
+
+{% highlight plain %}
+mininet> pingall
+*** Ping: testing ping reachability
+h1 -> h2 h3 
+h2 -> h1 h3 
+h3 -> h1 h2 
+*** Results: 0% dropped (6/6 received)
+{% endhighlight %}
+
+If you get the same result, your OpenDayLight and Mininet setup is working correctly. 
+
+You can view the GUI of OpenDayLight by opening `192.168.56.101:6633` on your browser. 
+
+![OpenDayLight Login Page]({{ site.url }}/images/posts/opendaylight/ODL-login.png "OpenDayLight Login Page")
