@@ -10,14 +10,12 @@ layout: default
 	<br>
 	{% capture words %}
         {{content | number_of_words | minus: 250}}
-      {% endcapture %}
-
-      {% if words contains "-" %}
-        Reading Time: Less than 1 minute
-      {% else %}
-        Reading Time:
-        {{ words | plus: 250 | divided_by: 180 | append: " minutes" }}
-      {% endif %}
+  {% endcapture %}
+  {% if words contains "-" %}
+      Less than 1 minute read
+  {% else %}
+      {{ words | plus: 250 | divided_by: 180 | append: " minutes" }}
+  {% endif %} read
     </p>
   </header>
 

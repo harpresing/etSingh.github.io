@@ -83,6 +83,4 @@ Both the username and password is `admin`. After logging in, you'll see the foll
 ![OpenDayLight DLUX]({{ site.url }}/images/posts/opendaylight/ODL-overview.png "OpenDayLight Console")
 
 
-Here you can see the miniet topology, view information about the links connecting the different nodes of the mininet topology, the flow entries at the switches etc. 
-
-This concludes the Installation overview of OpenDayLight. Next up, I'll write about the OpenFlow tutorial using OpenDayLight. Stay tuned ;)
+Here you can see the mininet topology, view information about the links connecting the different nodes of the mininet topology, the flow entries at the switches etc. This concludes the Installation overview of OpenDayLight. Next up, I'll write about the OpenFlow tutorial using OpenDayLight. Stay tuned ;)
