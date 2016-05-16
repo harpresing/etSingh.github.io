@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "OpenDayLight Beryllium Installation"
+title:  "OpenDayLight Installation"
 description: OpenDayLight is an SDN controller that is funded by the Linux foundation and is feature rich, making it a popular choice for a SDN controller
 comments: true
 date:   2016-05-11 16:05:18 +0100
@@ -75,4 +75,8 @@ If you get the same result, your OpenDayLight and Mininet setup is working corre
 
 You can view the GUI of OpenDayLight by opening `192.168.56.101:6633` on your browser. 
 
-![OpenDayLight Login Page]({{ site.url }}/images/posts/opendaylight/ODL-login.png "OpenDayLight Login Page")
+![OpenDayLight Login Page]({{ site.url }}/images/posts/opendaylight/ODL-login.png "OpenDayLight Login Page") 
+Both the username and password is `admin`. After logging in, you'll see the following screen:
+![OpenDayLight DLUX]({{ site.url }}/images/posts/opendaylight/ODL-overview.png "OpenDayLight Console")
+
+Here you can see the miniet topology, view information about the links connecting the different nodes of the mininet topology, the flow entries at the switches etc. This concludes the Installation overview of OpenDayLight. Next up, I'll write about the OpenFlow tutorial using OpenDayLight. Stay tuned ;)
