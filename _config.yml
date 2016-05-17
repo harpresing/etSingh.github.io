@@ -9,16 +9,20 @@
 title: Harpreet Singh
 email: singhh@tcd.ie
 description: > # this means to ignore newlines until "baseurl:"
-  A blog about tech as I learn new stuff myself
+  I am a Software Developer currently a Master's Student at Trinity College Dublin
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://harpreet.me" # the base hostname & protocol for your site
 twitter_username: _etSingh
 github_username:  omnigrass
 
+facebook:
+  app_id: 240502752989241
+
 # Build settings
 markdown: kramdown
 sass:
   style: compressed
+# Dependencies
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag

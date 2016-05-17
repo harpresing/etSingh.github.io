@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OpenDayLight Installation"
-description: OpenDayLight is an SDN controller that is funded by the Linux foundation and is feature rich, making it a popular choice for a SDN controller
+image: /images/posts/opendaylight/ODL-overview.png
 comments: true
 date:   2016-05-11 16:05:18 +0100
 ---
