@@ -5,3 +5,4 @@ source "https://rubygems.org"
 gem 'jekyll'
 gem 'jekyll-sitemap'
 gem 'rb-inotify', '~> 0.9.7' 
+gem 'jekyll-seo-tag'
