@@ -21,9 +21,9 @@ mininet@mininet-vm:~$ sudo apt-get install maven
 {% highlight plain %}
 mininet@mininet-vm:~$ sudo apt-get install git-core
 {% endhighlight %}
-+ Add JAVA_HOME to your bash profile or zsh profile by issuing the command 
++ Add the following file to your bash profile or zsh profile 
 {% highlight plain%}
-mininet@mininet-vm:~$ echo "export JAVA_HOME=/usr/lib/jvm/default-java" > ~/.bashrc
+export JAVA_HOME=/usr/lib/jvm/default-java
 {% endhighlight %}
 
 ### Install OpenDayLight
