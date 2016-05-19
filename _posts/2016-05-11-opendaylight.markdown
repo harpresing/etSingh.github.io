@@ -40,7 +40,7 @@ You have successfully installed opnedaylight if you get the prompt `opendaylight
 
 Next, we have to install features for the OpenDayLight controller. A full set of feature list is available at [here](https://www.opendaylight.org/opendaylight-features-list). Install essential features by issuing the command-
 {% highlight plain %}
-opendaylight-user@root>feature:install odl-l2switch-switch odl-mdsal-apidocs odl-dlux-all
+opendaylight-user@root>feature:install odl-l2switch-switch odl-mdsal-apidocs odl-dlux-all odl-restconf
 {% endhighlight %}
 
 To see list of installed features, run
