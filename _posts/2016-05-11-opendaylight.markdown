@@ -11,19 +11,20 @@ OpenDayLight is an SDN controller that is funded by the Linux foundation and is 
 ### Environment Dependencies for ODL
 + A Java 7- or Java 8-compliant JDK
 {% highlight plain %}
-mininet@mininet-vm:~$ sudo apt-get install openjdk-7-jdk
+$ sudo apt-get install openjdk-7-jdk
 {% endhighlight %}
 + Maven 3.1.1 or later for building projects
 {% highlight plain %}
-mininet@mininet-vm:~$ sudo apt-get install maven
+$ sudo apt-get install maven
 {% endhighlight %}
 + Install git if you don't have it
 {% highlight plain %}
-mininet@mininet-vm:~$ sudo apt-get install git-core
+$ sudo apt-get install git-core
 {% endhighlight %}
-+ Add the following file to your bash profile or zsh profile 
++ Add the following file to your bashrc by issuing the commands
 {% highlight plain%}
-export JAVA_HOME=/usr/lib/jvm/default-java
+$ echo 'export JAVA_HOME="/usr/lib/jvm/java-7-openjdk-amd64/"' >> ~/.bashrc
+$ source ~/.bashrc
 {% endhighlight %}
 
 ### Install OpenDayLight
@@ -57,7 +58,7 @@ The final step is to test weather OpenDayLight is functioning correctly. By defa
 On a new terminal, start a mininet topology, specifying the remote controller's IP address and port by issuing the command: 
 
 {% highlight plain %}
-mininet@mininet-vm:~$ sudo mn --topo linear,3 --mac --controller=remote,ip=192.168.56.101,port=6633 --switch ovs,protocols=OpenFlow13
+$ sudo mn --topo linear,3 --mac --controller=remote,ip=192.168.56.101,port=6633 --switch ovs,protocols=OpenFlow13
 {% endhighlight %}
 
 Test weather the connectivity is working by issuing the command on the mininet prompt:
@@ -73,7 +74,7 @@ h3 -> h1 h2
 
 If you get the same result, your OpenDayLight and Mininet setup is working correctly. 
 
-You can view the GUI of OpenDayLight by opening `192.168.56.101:6633` on your browser. 
+You can view the GUI of OpenDayLight(DLUX UI) by opening `192.168.56.101:8181/index.html` on your browser. 
 
 ![OpenDayLight Login Page]({{ site.url }}/images/posts/opendaylight/ODL-login.png "OpenDayLight Login Page") 
 
