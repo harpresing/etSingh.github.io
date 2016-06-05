@@ -10,7 +10,7 @@ permalink: /blog/
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
+      <li class="card card__padding shadowDepth1">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
