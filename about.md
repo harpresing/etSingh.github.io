@@ -6,7 +6,7 @@ permalink: /about/
 {% include _scripts/personSchema.html %}
 {% include _scripts/typed.html %}
 <div class="mdl-grid">
-<div class="mdl-cell mdl-cell--5-col card shadowDepth1">
+<div class="mdl-cell mdl-cell--5-col">
 <img src="../images/me.jpg" class="shadowDepth1" alt="Harpreet Singh"/>
 </div>
 <div class="text mdl-cell mdl-cell--7-col card card__padding shadowDepth1">
