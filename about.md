@@ -17,7 +17,7 @@ permalink: /about/
         <circle cx="64" cy="14" r="5" fill="#a3be8c" />
     </svg>
 </div>
-$ <span class="element" style="height: 300px;"></span> 
+$ <span class="element"></span> 
 </div>
 <div class="mdl-cell mdl-cell--12-col card card__padding shadowDepth1">
 Hi! I'm Harpreet Singh and welcome to my little corner of the internet. I'm currently a graduate student in Trinity College Dublin's <a href="https://www.scss.tcd.ie/">SCSS department</a> where I'm focusing on <a href="https://www.scss.tcd.ie/postgraduate/mscnds/">Networks and Distributed Systems</a>. Check out my <a href="../HarpreetSinghCV.pdf">resume</a>.
