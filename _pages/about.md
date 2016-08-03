@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /
 ---
 {% include _scripts/personSchema.html %}
 {% include _scripts/typed.html %}

@@ -4,9 +4,9 @@ title: Blog
 permalink: /blog/
 ---
  {% include _scripts/analytics.html %}
-<div>
+<div class="home">
 
-<h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -16,7 +16,11 @@ permalink: /blog/
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+          {{ post.excerpt }}
       </li>
     {% endfor %}
   </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
 </div>
