@@ -8,7 +8,7 @@ permalink: /projects/
 	<ul class="post-list">
 
 		<li class="project card card__padding shadowDepth1">
-		<a class="post-link project-item" href="https://github.com/omnigrass/P2PChatServer">Peer-to-Peer Chat Server</a> 
+		<a class="post-link project-item" href="https://github.com/etSingh/P2PChatServer">Peer-to-Peer Chat Server</a> 
 		
 		<img src="../images/portfolio/ruby-on-rails.png" alt="peer2peer"> 
 
@@ -16,15 +16,15 @@ permalink: /projects/
 		
 		<p>Every Node in the Network has a unique ID, which is assigned to it when it joins the network. All messages with a particular hashtag are aggregated by a specific node. </p>
 		
-		<p>This was a part of my Master's individual project at Trinity. I got my first experience of building an application with a dynamically typed language (Ruby) which was quite fun. For detailed instructions on how to play with it visit the <a href="https://github.com/omnigrass/P2PChatServer">source</a>.</p>
+		<p>This was a part of my Master's individual project at Trinity. I got my first experience of building an application with a dynamically typed language (Ruby) which was quite fun. For detailed instructions on how to play with it visit the <a href="https://github.com/etSingh/P2PChatServer">source</a>.</p>
 		<div class="mdl-card__actions mdl-card--border">
 
         	<div class="mdl-layout-spacer"></div>
     	
-		    	<a class="mdl-button mdl-button--icon mdl-button--colored" href="https://github.com/omnigrass/P2PChatServer/fork" title="Fork on Github"><i class="fa fa-code-fork" aria-hidden="true"></i> Fork on Github
+		    	<a class="mdl-button mdl-button--icon mdl-button--colored" href="https://github.com/etSingh/P2PChatServer/fork" title="Fork on Github"><i class="fa fa-code-fork" aria-hidden="true"></i> Fork on Github
 		    	</a> 
 
-			    <a class="mdl-button mdl-button--icon mdl-button--colored" href="https://github.com/omnigrass/P2PChatServer"><i class="fa fa-star" aria-hidden="true" title="Star on Github"></i> Star on Github
+			    <a class="mdl-button mdl-button--icon mdl-button--colored" href="https://github.com/etSingh/P2PChatServer"><i class="fa fa-star" aria-hidden="true" title="Star on Github"></i> Star on Github
 				</a> 
 				
 		</div>
@@ -48,20 +48,20 @@ permalink: /projects/
 		</li>
 		
 		<li class="project card card__padding shadowDepth1">
-		<a class="post-link" href="https://github.com/omnigrass/Organisr">Organisr</a>
+		<a class="post-link" href="https://github.com/etSingh/Organisr">Organisr</a>
 
 		<img src="../images/portfolio/Organisr-Logo.png" alt="Organisr"> 
 		<p> Organisr is a web application build using the MEAN stack. It's idea was to target Admins of Facebook Groups for Amature Sports Clubs. It allows users to login via Facebook using the Facebbok Graph API and let's them create a Training session, which is then posted to the Facebook group page.</p>
 
-		<p>It was a fun project, I got to re enforce the skills gained from Zooop and use the FB Graph API. Check out the <a href="https://github.com/omnigrass/organisr">source</a>.</p>
+		<p>It was a fun project, I got to re enforce the skills gained from Zooop and use the FB Graph API. Check out the <a href="https://github.com/etSingh/organisr">source</a>.</p>
 		<div class="mdl-card__actions mdl-card--border">
 
         	<div class="mdl-layout-spacer"></div>
     	
-		    	<a class="mdl-button mdl-button--icon mdl-button--colored" href="https://github.com/omnigrass/Organisr/fork" title="Fork on Github"><i class="fa fa-code-fork" aria-hidden="true"></i> Fork on Github
+		    	<a class="mdl-button mdl-button--icon mdl-button--colored" href="https://github.com/etSingh/Organisr/fork" title="Fork on Github"><i class="fa fa-code-fork" aria-hidden="true"></i> Fork on Github
 		    	</a> 
 
-			    <a class="mdl-button mdl-button--icon mdl-button--colored" href="https://github.com/omnigrass/Organisr"><i class="fa fa-star" aria-hidden="true" title="Star on Github"></i> Star on Github
+			    <a class="mdl-button mdl-button--icon mdl-button--colored" href="https://github.com/etSingh/Organisr"><i class="fa fa-star" aria-hidden="true" title="Star on Github"></i> Star on Github
 				</a> 
 				
 		</div>
