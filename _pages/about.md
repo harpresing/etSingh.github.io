@@ -7,7 +7,7 @@ permalink: /
 {% include _scripts/typed.html %}
 <div class="mdl-grid">
 <div class="mdl-cell mdl-cell--5-col">
-<img src="../images/me.jpg" class="shadowDepth1" alt="Harpreet Singh"/>
+<img src="../public/images/me.jpg" class="shadowDepth1" alt="Harpreet Singh"/>
 </div>
 <div class="text mdl-cell mdl-cell--7-col card card__padding shadowDepth1">
 <div class="bar">
@@ -20,6 +20,6 @@ permalink: /
 $ <span class="element"></span> 
 </div>
 <div class="mdl-cell mdl-cell--12-col card card__padding shadowDepth1">
-Hi! I'm Harpreet Singh and welcome to my little corner of the internet. I'm a recent graduate from Trinity College Dublin's <a href="https://www.scss.tcd.ie/">SCSS department</a> where I focused on <a href="https://www.scss.tcd.ie/postgraduate/mscnds/">Networks and Distributed Systems</a>. I am currently seeking roles in Software Engineering. Check out my <a href="../documents/HarpreetSinghCV.pdf">CV</a>.
+Hi! I'm Harpreet Singh and welcome to my little corner of the internet. I'm a recent graduate from Trinity College Dublin's <a href="https://www.scss.tcd.ie/">SCSS department</a> where I focused on <a href="https://www.scss.tcd.ie/postgraduate/mscnds/">Networks and Distributed Systems</a>. I am currently seeking roles in Software Engineering. Check out my <a href="../public/documents/HarpreetSinghCV.pdf">CV</a>.
 </div>
 </div>

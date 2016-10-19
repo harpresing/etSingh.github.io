@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OpenDayLight Installation"
-image: /images/posts/opendaylight/ODL-overview.png
+image: /public/images/posts/opendaylight/ODL-overview.png
 comments: true
 date:   2016-05-11 16:05:18 +0100
 ---
@@ -76,12 +76,12 @@ If you get the same result, your OpenDayLight and Mininet setup is working corre
 
 You can view the GUI of OpenDayLight(DLUX UI) by opening `192.168.56.101:8181/index.html` on your browser. 
 
-![OpenDayLight Login Page]({{ site.url }}/images/posts/opendaylight/ODL-login.png "OpenDayLight Login Page") 
+![OpenDayLight Login Page]({{ site.url }}/public/images/posts/opendaylight/ODL-login.png "OpenDayLight Login Page") 
 
 Both the username and password is `admin`. After logging in, you'll see the following screen:
 
 
-![OpenDayLight DLUX]({{ site.url }}/images/posts/opendaylight/ODL-overview.png "OpenDayLight Console")
+![OpenDayLight DLUX]({{ site.url }}/public/images/posts/opendaylight/ODL-overview.png "OpenDayLight Console")
 
 
 Here you can see the mininet topology, view information about the links connecting the different nodes of the mininet topology, the flow entries at the switches etc. This concludes the Installation overview of OpenDayLight. Next up, I'll write about the OpenFlow tutorial using OpenDayLight. Stay tuned ;)
