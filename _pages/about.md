@@ -20,6 +20,6 @@ permalink: /
 $ <span class="element"></span>
 </div>
 <div class="mdl-cell mdl-cell--12-col card card__padding shadowDepth1">
-Hi! I'm Harpreet Singh and welcome to my little corner of the internet. I'm a recent graduate from Trinity College Dublin's <a href="https://www.scss.tcd.ie/">SCSS department</a> where I focused on <a href="https://www.scss.tcd.ie/postgraduate/mscnds/">Networks and Distributed Systems</a>. I am currently working as a Teaching Assistanting in the School of Computer Science and Statistics, Trinity College Dublin. Check out my <a href="../public/documents/HarpreetSinghCV.pdf">CV</a>.
+Hi! I'm Harpreet Singh and welcome to my little corner of the internet. I'm a recent graduate from Trinity College Dublin's <a href="https://www.scss.tcd.ie/">SCSS department</a> where I focused on <a href="https://www.scss.tcd.ie/postgraduate/mscnds/">Networks and Distributed Systems</a>. I am currently working as a Teaching Assistant in the School of Computer Science and Statistics, Trinity College Dublin. Check out my <a href="../public/documents/HarpreetSinghCV.pdf">CV</a>.
 </div>
 </div>
