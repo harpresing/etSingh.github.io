@@ -11,7 +11,7 @@ email: singhh@tcd.ie
 description: > # this means to ignore newlines until "baseurl:"
   I am a Software Developer currently a Master's Student at Trinity College Dublin
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://harpreet.me" # the base hostname & protocol for your site
+url: # the base hostname & protocol for your site
 
 author:
   name: Harpreet Singh
@@ -19,9 +19,6 @@ author:
   github: etSingh    
   twitter: _etSingh   
   linkedin: etSingh    
-
-facebook:
-  app_id: 240502752989241
 
 include:
   - _pages
